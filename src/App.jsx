@@ -1,10 +1,12 @@
+import Wellcome from "./components/Welcome";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Quiz app</h1>
-    </>
+    <div className="App">
+      <h1>Quiz de Programação</h1>
+      <Wellcome />
+    </div>
   );
 }
 
